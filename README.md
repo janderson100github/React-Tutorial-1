@@ -163,9 +163,6 @@ touch ./src/index.html
 </html>
 ```
 
-When the html page loads and the 'DOMContentLoaded' occurs, our application will be initialized with 'init', passing in the
-element id in the first <div> after the <body> tag.
-
 ### index.js
 
 To make the application we now turn to `index.js`
@@ -246,4 +243,3 @@ npm start
 ```
 make a change in `App.jsx` to say "Hello Wonderful World", and see the change immediately in your browser.
 
-## Redux
